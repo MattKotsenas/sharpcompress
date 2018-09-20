@@ -24,4 +24,8 @@
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
     <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\Lagan.Analyzers\Lagan.Analyzers\bin\Debug\netstandard1.3\Lagan.Analyzers.dll" />
+    <ProjectReference Include="..\Lagan.Core\Lagan.Core.csproj" />
+  </ItemGroup>
 </Project>
