@@ -13,6 +13,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpCompress", "src\SharpC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpCompress.Test", "tests\SharpCompress.Test\SharpCompress.Test.csproj", "{F2B1A1EB-0FA6-40D0-8908-E13247C7226F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lagan.Core", "src\Lagan.Core\Lagan.Core.csproj", "{732C9807-4EE1-4ED3-BD39-548561917BAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lagan.Analyzers", "src\Lagan.Analyzers\Lagan.Analyzers\Lagan.Analyzers.csproj", "{A99F9C58-BD7E-4A70-8F78-C7F5D46A4A4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lagan.Analyzers.Test", "src\Lagan.Analyzers\Lagan.Analyzers.Test\Lagan.Analyzers.Test.csproj", "{CB3FD6D5-8A32-4E02-A93B-56B32B1610C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lagan.Analyzers.Vsix", "src\Lagan.Analyzers\Lagan.Analyzers.Vsix\Lagan.Analyzers.Vsix.csproj", "{E6E7D7B8-F4E8-40C5-B39D-0059131BE97A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +35,22 @@ Global
 		{F2B1A1EB-0FA6-40D0-8908-E13247C7226F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2B1A1EB-0FA6-40D0-8908-E13247C7226F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2B1A1EB-0FA6-40D0-8908-E13247C7226F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732C9807-4EE1-4ED3-BD39-548561917BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732C9807-4EE1-4ED3-BD39-548561917BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732C9807-4EE1-4ED3-BD39-548561917BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732C9807-4EE1-4ED3-BD39-548561917BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99F9C58-BD7E-4A70-8F78-C7F5D46A4A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99F9C58-BD7E-4A70-8F78-C7F5D46A4A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99F9C58-BD7E-4A70-8F78-C7F5D46A4A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99F9C58-BD7E-4A70-8F78-C7F5D46A4A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3FD6D5-8A32-4E02-A93B-56B32B1610C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3FD6D5-8A32-4E02-A93B-56B32B1610C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3FD6D5-8A32-4E02-A93B-56B32B1610C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3FD6D5-8A32-4E02-A93B-56B32B1610C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E7D7B8-F4E8-40C5-B39D-0059131BE97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E7D7B8-F4E8-40C5-B39D-0059131BE97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E7D7B8-F4E8-40C5-B39D-0059131BE97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E7D7B8-F4E8-40C5-B39D-0059131BE97A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +58,12 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FD19DDD8-72B2-4024-8665-0D1F7A2AA998} = {3C5BE746-03E5-4895-9988-0B57F162F86C}
 		{F2B1A1EB-0FA6-40D0-8908-E13247C7226F} = {0F0901FF-E8D9-426A-B5A2-17C7F47C1529}
+		{732C9807-4EE1-4ED3-BD39-548561917BAD} = {3C5BE746-03E5-4895-9988-0B57F162F86C}
+		{A99F9C58-BD7E-4A70-8F78-C7F5D46A4A4F} = {3C5BE746-03E5-4895-9988-0B57F162F86C}
+		{CB3FD6D5-8A32-4E02-A93B-56B32B1610C9} = {3C5BE746-03E5-4895-9988-0B57F162F86C}
+		{E6E7D7B8-F4E8-40C5-B39D-0059131BE97A} = {3C5BE746-03E5-4895-9988-0B57F162F86C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C258E2FA-2441-4EB7-BFB8-4CC30BA099F3}
 	EndGlobalSection
 EndGlobal
