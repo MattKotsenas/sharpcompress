@@ -76,7 +76,7 @@ namespace Lagan.Analyzers.Test
 
         protected override DiagnosticAnalyzer GetCSharpDiagnosticAnalyzer()
         {
-            return new LaganAnalyzersAnalyzer();
+            return new MissingAnnotationAnalyzer();
         }
     }
 }

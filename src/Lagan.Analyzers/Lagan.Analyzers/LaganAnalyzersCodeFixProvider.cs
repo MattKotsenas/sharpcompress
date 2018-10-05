@@ -22,7 +22,7 @@ namespace Lagan.Analyzers
 
         public sealed override ImmutableArray<string> FixableDiagnosticIds
         {
-            get { return ImmutableArray.Create(LaganAnalyzersAnalyzer.DiagnosticId); }
+            get { return ImmutableArray.Create(MissingAnnotationAnalyzer.DiagnosticId); }
         }
 
         public sealed override FixAllProvider GetFixAllProvider()
